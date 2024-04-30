@@ -1,0 +1,88 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    background: rgb(207,237,205);
+    background: linear-gradient(90deg, rgba(207,237,205,1) 0%, rgba(238,214,248,1) 35%, rgba(255,235,156,1) 100%);
+    box-shadow: 10px 10px 30px rgba(238,214,248,1)
+   
+        
+}
+
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    font-size: 1rem;
+    align-items:center;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--font-color-default);
+    font-family: "Montserrat", sans-serif;
+    border: #fff double 1px;
+}
+
+.botao{
+    background: rgb(207,237,205);
+    border: 50px;
+    border-color: rgb(238,174,202);
+    border-radius: 0%;
+    box-shadow: 5px 5px 20px; color: aliceblue;
+    font: message-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-fill-color: dimgray;
+    
+}
+
+.botao:hover{
+    color: rgb(212, 171, 230);
+    transition: background-color 0.3s;
+}
+
+.foto {
+    
+    width: 200px;
+    height: 250px;
+    
+    
+}
+
+.portfolio {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    
+    
+   
+}
+
+ul {
+    text-align: left;
+}
+
+.contato {
+    text-align: center;
+}
+
+.corpo {
+    background-image: url(fundositeamarelo.png);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tabela {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+tr {
+    border-color: blueviolet;
+    margin: 30px;
+}
